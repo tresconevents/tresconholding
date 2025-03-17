@@ -4,7 +4,7 @@ import Card from "./cards";
 const HoveringCard = () => {
   return (
     <CardContainer>
-      <div className="">
+      <div className="ss">
         <Card />
       </div>
     </CardContainer>
