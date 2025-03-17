@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 59, 61;
+}
+
+.map-pointer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #00A5A3;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 20;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Inter', system-ui, sans-serif; */
+  box-sizing: border-box;
+     outline: none;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  background: #ffffff !important;
+  
+}
+
+@layer base {
+  html {
+     font-family: 'Anek Devanagari', system-ui, sans-serif;
+     background-color: #ffffff!important;
+    
+    }
+
+    body{
+      @apply overflow-x-hidden
+
+      
+      
+    }
+
+    @keyframes blink {
+      0%, 100% {
+        transform: scale(1);
+        
+      }
+      50% {
+        transform: scale(5); /* Increase size */
+        /* Decrease opacity */
+        
+      }
+    }
+    
+.pointer {
+      animation: blink 1s infinite; /* Blink every second */
+      background-color: #00A5A3;
+    }
+    
+}
