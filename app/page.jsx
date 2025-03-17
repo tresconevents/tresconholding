@@ -13,7 +13,7 @@ import { NewsSection } from '@/components/sections/news';
 import MessageSection from '@/components/sections/message_floder';
 import Ventures_custom from '@/components/sections/ventures_custom';
 import Advisory_custom from '@/components/sections/advisory_custom';
-import HoveringCard from '@/components/sections/hovering_cards';
+import HoveringCard from '@/components/sections/Hovering_Cards';
 // import GlobalFootprint from '@/components/sections/globalFootprint_custom';
 
 
