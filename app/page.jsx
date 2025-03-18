@@ -5,7 +5,7 @@ import { StrengthSection } from '@/components/sections/strength';
 // import { VenturesSection } from '@/components/sections/ventures';
 import { ImpactNewSection } from '@/components/sections/impact-new';
 // import { MessageSection } from '@/components/sections/message';
-import { GlobalFootprintSection } from '@/components/sections/global-footprint';
+// import { GlobalFootprintSection } from '@/components/sections/global-footprint';
 
 // import { AdvisorySection } from '@/components/sections/advisory';
 import { NewsSection } from '@/components/sections/news';
@@ -14,7 +14,7 @@ import MessageSection from '@/components/sections/message_floder';
 import Ventures_custom from '@/components/sections/ventures_custom';
 import Advisory_custom from '@/components/sections/advisory_custom';
 import HoveringCard from '@/components/sections/Hovering_Cards';
-// import GlobalFootprint from '@/components/sections/globalFootprint_custom';
+import GlobalFootprint from '@/components/sections/globalFootprint_custom';
 
 
 
@@ -32,8 +32,8 @@ export default function Home() {
       <ImpactNewSection />
        
 <HoveringCard />
-{/* <GlobalFootprint /> */}
-      <GlobalFootprintSection />
+<GlobalFootprint />
+      {/* <GlobalFootprintSection /> */}
 
       {/* <MessageSection />     */}
       
