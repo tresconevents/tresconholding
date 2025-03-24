@@ -6,7 +6,7 @@ import AdvisorySlider from './advisorySlider';
 
 const Advisory_custom = () => {
   return (
-    <section className="bg-white py-24 relative lg:py-0 lg:bottom-[8rem] mt-[15rem]">
+    <section className="bg-white lg:py-24  py-12 relative  lg:bottom-[8rem] lg:mt-[15rem]">
       <AdvisoryContainer>
         <AdvisoryHeader />
         <div className="">

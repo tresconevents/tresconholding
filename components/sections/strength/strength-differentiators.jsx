@@ -40,12 +40,17 @@ export function StrengthDifferentiators() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="flex md:flex items-center gap-[10px] md:gap-[40px] flex-col md:flex-row"
           >
-            <div className="lg:w-[80px] lg:h-[80px] w-[50px] h-[50px] relative flex-shrink-0">
+            <div className="lg:w-[80px] lg:h-[80px] w-[50px] h-[50px] relative flex-shrink-0 rounded-lg overflow-hidden">
               <Image
                 src={item.icon}
                 alt={item.title}
-                 fill
-                className="object-cover mb-20"
+                fill
+                className="object-contain p-2 "
+
+                style={{
+                 mixBlendMode: 'multiply'
+                }}
+                priority
               />
             </div>
             <div>

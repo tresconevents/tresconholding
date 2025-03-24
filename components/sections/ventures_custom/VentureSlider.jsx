@@ -27,7 +27,7 @@ const VentureSlider = () => {
   }, [swiperRef]);
 
   return (
-    <div className="lg:py-24 py-12 overflow-hidden ">
+    <div className="py-24 overflow-hidden ">
       {/* <AnimatedText text="We are a team of entrepreneurs and entrepreneurs" /> */}
       <div className=" flex flex-col lg:flex-row  gap-2">
         {/* Mobile Title Section */}

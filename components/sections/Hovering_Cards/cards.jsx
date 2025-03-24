@@ -28,16 +28,16 @@ const Cards = () => {
       {impactCards.map((card, index) => (
         <div
           key={index}
-          className={`relative bg-[#00A5A3] overflow-hidden w-full lg:h-[61vh] h-[45vh] md:w-120 md:h-56 xl:w-140 xl:h-60`}
+          className={`relative bg-[#00A5A3] overflow-hidden w-full lg:h-[61vh] h-[35vh] md:w-120 md:h-56 xl:w-140 xl:h-60`}
           onMouseEnter={() => setHoveredCardIndex(index)}
           onMouseLeave={() => setHoveredCardIndex(null)}
         >
           <div className="p-2">
-            <h4 className="text-[#F6FAFA] font-[600] font-anek pl-[1.5rem] pt-[1.5rem] text-[1.75rem] leading-[2.28rem] z-50">
+            <h4 className="text-[#F6FAFA] font-[600] font-anek lg:pl-[1.5rem] pl-[10px] lg:pt-[1.5rem] pt-[10px] text-[20px] lg:text-[24px] leading-[2.28rem] z-50">
               {card.title}
             </h4>
             <p
-              className={`text-[#f6fafA] font-[400] font-anek pl-[1.5rem] pt-[1.5rem] transition-all ease-in-out duration-600 opacity-100 ${
+              className={`text-[#f6fafA] font-[400] text-[16px] lg:text-[18px] font-anek lg:pl-[1.5rem] pl-[10px] lg:pt-[1.5rem] pt-[10px] transition-all ease-in-out duration-600 opacity-100 ${
                 isMobile
                   ? "block"
                   : hoveredCardIndex === index
@@ -48,7 +48,7 @@ const Cards = () => {
               {card.description}
             </p>
             <div
-              className={`absolute right-0 transition-all duration-500 ease-in-out lg:w-[284px] lg:h-[160px] w-[211px] h-[121px] ${
+              className={`absolute right-0 transition-all duration-500 ease-in-out lg:w-[284px] lg:h-[165px] w-[182px] h-[104px] ${
                 !isMobile && hoveredCardIndex === index ? "bottom-[-5rem]" : "bottom-0"
               }`}
             >

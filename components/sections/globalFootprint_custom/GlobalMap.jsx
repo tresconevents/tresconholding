@@ -135,7 +135,7 @@ const GlobalMap = () => {
   });
 
   return (
-    <div className="relative text-white pb-40">
+    <div className="relative text-white lg:pb-40 ">
       <div className="relative z-10">
         <h2 className="text-2xl md:text-[34px] xl:text-[60px] font-[500] leading-tight md:mt-[4rem] xl:mt-[4rem] mb-8 mt-8 font-anek">
           Our Global Footprint

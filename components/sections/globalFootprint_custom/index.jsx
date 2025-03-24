@@ -5,7 +5,7 @@ import GlobalMap from "./GlobalMap";
 
 const GlobalFootprint = () => {
   return (
-    <section className="bg-[#1E2124] relative h-[auto] font-manrope pb-[25rem]">
+    <section className="bg-[#1E2124] relative h-[auto] font-manrope lg:pb-[25rem] pb-[5rem]">
       <GlobalContainer>
         <GlobalHeader />
         <GlobalMap />
