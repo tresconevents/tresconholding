@@ -28,7 +28,7 @@ const Cards = () => {
       {impactCards.map((card, index) => (
         <div
           key={index}
-          className={`relative bg-[#00A5A3] overflow-hidden w-full h-[61vh] md:w-120 md:h-56 xl:w-140 xl:h-60`}
+          className={`relative bg-[#00A5A3] overflow-hidden w-full lg:h-[61vh] h-[45vh] md:w-120 md:h-56 xl:w-140 xl:h-60`}
           onMouseEnter={() => setHoveredCardIndex(index)}
           onMouseLeave={() => setHoveredCardIndex(null)}
         >
@@ -48,7 +48,9 @@ const Cards = () => {
               {card.description}
             </p>
             <div
-              className={`absolute right-0 transition-all ease-out duration-500`}
+              className={`absolute right-0 transition-all duration-500 ease-in-out lg:w-[284px] lg:h-[156px] w-[211px] h-[121px] ${
+                !isMobile && hoveredCardIndex === index ? "bottom-[-5rem]" : "bottom-0"
+              }`}
             >
               <Image
                 src={card.image}

@@ -10,10 +10,10 @@ import { ImpactNewSection } from '@/components/sections/impact-new';
 // import { AdvisorySection } from '@/components/sections/advisory';
 import { NewsSection } from '@/components/sections/news';
 
-import MessageSection from '@/components/sections/message_floder';
+import MessageSection from '@/components/sections/message/index';
 import Ventures_custom from '@/components/sections/ventures_custom';
 import Advisory_custom from '@/components/sections/advisory_custom';
-import HoveringCard from '@/components/sections/Hovering_Cards';
+import HoveringCard from '@/components/sections/hovering_cards';
 import GlobalFootprint from '@/components/sections/globalFootprint_custom';
 
 
@@ -35,9 +35,9 @@ export default function Home() {
 <GlobalFootprint />
       {/* <GlobalFootprintSection /> */}
 
-      {/* <MessageSection />     */}
+      <MessageSection />    
       
-      <MessageSection />
+      {/* <MessageSection /> */}
       <Advisory_custom />
       {/* <AdvisorySection /> */}
       <NewsSection />

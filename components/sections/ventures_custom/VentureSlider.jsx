@@ -27,10 +27,18 @@ const VentureSlider = () => {
   }, [swiperRef]);
 
   return (
-    <div className="py-24 overflow-hidden ">
+    <div className="lg:py-24 py-12 overflow-hidden ">
       {/* <AnimatedText text="We are a team of entrepreneurs and entrepreneurs" /> */}
       <div className=" flex flex-col lg:flex-row  gap-2">
-        <div className=" xl:w-[600px] lg:w-[600px] bg-trapransparent flex flex-col justify-center    xl:text-left  xl:mx-0">
+        {/* Mobile Title Section */}
+        <div className="lg:hidden w-full">
+          <h3 className="font-anek text-[#fff] text-[30px] leading-[42px] !text-left font-[600] lg:text-[42px] lg:leading-[42px] xl:mb-[28px] md:mb-[28px]">
+            {ventures[active]?.title}
+          </h3>
+        </div>
+
+        {/* Desktop Content Section */}
+        <div className="hidden lg:block xl:w-[600px] lg:w-[600px] bg-transparent flex flex-col justify-center    xl:text-left  xl:mx-0">
           <h3 className="font-anek text-[#fff] text-[30px] leading-[42px] !text-left font-[600] lg:text-[42px] lg:leading-[42px] xl:mb-[28px] md:mb-[28px]">
             {ventures[active]?.title}
           </h3>
@@ -99,7 +107,7 @@ const VentureSlider = () => {
                 <div
                   className={`${
                     active === index
-                      ? "lg:!h-[521px] h-[350px] sm:w-[100%] sm:h-[100%]"
+                      ? "lg:!h-[521px] h-[400px] sm:w-[100%] sm:h-[100%]"
                       : " lg:!h-[371px] lg:!w-[299px]"
                   } transition-all duration-300 flex items-end overflow-hidden  relative w-full`}
                 >
@@ -121,11 +129,47 @@ const VentureSlider = () => {
                       className="object-cover"
                     />
                   )}
+                  {venture.video && (
+                    <div className="absolute bottom-[10px] right-4 z-20">
+                      <Image
+                        src="/trescon_blue.png"
+                        alt="Trescon Logo"
+                        width={120}
+                        height={40}
+                        className="object-contain"
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
+
+        {/* Mobile Description and Buttons */}
+        <div className="lg:hidden w-full lg:mt-8 mt-0 z-10">
+          <p className="font-manrope text-[#fff] text-[18px] leading-[30px] !text-left font-[400] lg:text-[20px] lg:leading-[30px] xl:mb-[28px]">
+            {ventures[active]?.description}
+          </p>
+          <div className="flex justify-center mt-8  z-50">
+            <div className="flex !gap-4">
+              <button
+                onClick={handlePrevious}
+                className="p-3 rounded-full bg-[#C0F43C] hover:bg-[#C0F43C]/90 transition-colors"
+                aria-label="Previous venture"
+              >
+                <ArrowLeft className="w-6 h-6 text-[#1E2124]" />
+              </button>
+              <button
+                onClick={handlePrevious_1}
+                className="p-3 rounded-full bg-[#C0F43C] hover:bg-[#C0F43C]/90 transition-colors"
+                aria-label="Next venture"
+              >
+                <ArrowRight className="w-6 h-6 text-[#1E2124]" />
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

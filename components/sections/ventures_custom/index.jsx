@@ -16,7 +16,7 @@ const Ventures_custom = () => {
         <VentureSlider />
       </VentureContainer>
 
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] ">
+      <div className="absolute bottom-0 right-0 lg:w-[500px] lg:h-[500px] w-[260px] h-[260px] ">
         <Image
           src="/black_dot.png"
           alt="Ellipse"

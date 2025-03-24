@@ -19,7 +19,7 @@ export function ImpactContent() {
         Empowering Change, Driving Innovation, and Creating Lasting Impact
       </h3>
       
-      <div className="flex justify-start lg:justify-start pb-20">
+      <div className="flex justify-start lg:justify-start lg:pb-20 pb-0 ">
       <Link
       href="#"
       className="inline-flex items-center !text-[20px] line-[30px] gap-4 text-[#3F3F3F]  transition-colors font-manrope text-base  mt-0 group"

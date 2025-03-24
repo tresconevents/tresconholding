@@ -5,15 +5,15 @@ import { motion } from 'framer-motion'
 
 const Veturecontent = () => {
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between mt-16 lg:items-start gap-8">
+    <div className="flex flex-col lg:flex-row lg:justify-between mt-12 lg:mt-16 leading-[34px] lg:leading-[42px] xl:mb-[28px] md:mb-[28px] lg:items-start gap-8">
     <motion.h3 
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="font-['Anek_Devanagari'] text-[34px] text-[35px] md:text-[60px] font-[500] sm:leading-[78px] text-white order-1 lg:order-1 lg:max-w-[50%]"
+      className="font-['Anek_Devanagari'] text-[34px]  md:text-[60px] font-[500] sm:leading-[78px] text-white order-1 lg:order-1 lg:max-w-[50%]"
     >
-      Driving Innovation, Empowering Industries
+      Driving Innovation, Empowering  Industries
     </motion.h3>
 
     <motion.p

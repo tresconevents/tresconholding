@@ -16,9 +16,8 @@ const navigation = {
   ],
   products: [
     { label: 'Magure', href: '#' },
-    { label: 'Blive', href: '#' },
-    { label: 'Hoopod', href: '#' },
-    { label: 'Intedot', href: '#' },
+    { label: 'Blive', href: '#' }
+
   ],
 };
 

@@ -20,7 +20,7 @@ export function HeroContent() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="block font-anek md:font-[700] font-[400] text-[42px]  md:leading-[75px] md:text-[75px]"
+          className="block font-anek md:font-[700] font-[700] text-[42px]  md:leading-[75px] md:text-[75px]"
         >
           Building
         </motion.span>
