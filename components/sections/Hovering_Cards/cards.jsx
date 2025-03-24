@@ -48,7 +48,7 @@ const Cards = () => {
               {card.description}
             </p>
             <div
-              className={`absolute right-0 transition-all duration-500 ease-in-out lg:w-[284px] lg:h-[156px] w-[211px] h-[121px] ${
+              className={`absolute right-0 transition-all duration-500 ease-in-out lg:w-[284px] lg:h-[160px] w-[211px] h-[121px] ${
                 !isMobile && hoveredCardIndex === index ? "bottom-[-5rem]" : "bottom-0"
               }`}
             >

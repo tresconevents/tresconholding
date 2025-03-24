@@ -1,7 +1,7 @@
 import React from "react";
 import CardContainer from "./cardContainer";
 import Card from "./cards";
-const HoveringCard = () => {
+const HoveringCards = () => {
   return (
     <CardContainer>
       <div className="">
@@ -11,4 +11,4 @@ const HoveringCard = () => {
   );
 };
 
-export default HoveringCard;
+export default HoveringCards;

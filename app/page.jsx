@@ -13,8 +13,8 @@ import { NewsSection } from '@/components/sections/news';
 import MessageSection from '@/components/sections/message/index';
 import Ventures_custom from '@/components/sections/ventures_custom';
 import Advisory_custom from '@/components/sections/advisory_custom';
-import HoveringCard from '@/components/sections/hovering_cards';
 import GlobalFootprint from '@/components/sections/globalFootprint_custom';
+import HoveringCards from '@/components/sections/Hovering_Cards';
 
 
 
@@ -31,7 +31,7 @@ export default function Home() {
       {/* <VenturesSection /> */}
       <ImpactNewSection />
        
-<HoveringCard />
+<HoveringCards />
 <GlobalFootprint />
       {/* <GlobalFootprintSection /> */}
 
