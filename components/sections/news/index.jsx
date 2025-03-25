@@ -18,7 +18,7 @@ export function NewsSection() {
   }, [activeTab]);
 
   return (
-    <section className="bg-white pt-0 pb-24">
+    <section className="bg-white pt-0 py-4">
       <NewsContainer>
         <NewsHeader />
         <div className="space-y-8">

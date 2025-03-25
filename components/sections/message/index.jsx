@@ -22,6 +22,7 @@ const index = () => {
           <h3 className="text-white font-[500] text-[40px] lg:text-[66px] font-anek leading-[44px] lg:leading-[65px] drop-shadow-xl">
             Mohammed<br/>Saleem
           </h3>
+          <p className='text-white text-[20px] font-manrope mt-3'>Founder &  Chairman,  Trescon Holdings</p>
         </div>
       </div>
     </section>

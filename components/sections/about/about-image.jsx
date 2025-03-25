@@ -17,7 +17,7 @@ export function AboutImage() {
           src="/Driving_Global_Innovation.jpg"
           alt="About Trescon Holdings"
           fill
-          className=" !h-[auto] !w-[auto] !sm:w-[500] !sm:h-[100%]  object-cover rounded-2xl"
+          className=" !h-[auto] !w-[auto] !sm:w-[500] !sm:h-[100%]  object-cover rounded-2xl mix-blend-multiply"
           
           priority
         />

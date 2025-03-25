@@ -23,7 +23,7 @@ const AdvisorySlider = () => {
   }, [swiperRef]);
 
   return (
-    <div className="lg:py-24 py-16 overflow-hidden">
+    <div className=" py-12 overflow-hidden">
       <div className="flex flex-col flex-1 lg:flex-row justify-center lg:items-center items-start gap-[2rem]">
         <div className="w-max xl:w-[800px] bg-trapransparent flex flex-col justify-center  xl:text-left  xl:mx-0">
           <motion.div

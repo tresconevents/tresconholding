@@ -12,17 +12,21 @@ const MessageImageComponent = () => {
           width={962}
           height={642}  
           objectFit="cover"
-        />
+        />  
       </div>
       
       {/* Founder & Chairman title */}
       <div className='absolute lg:left-[2.8rem] lg:bottom-[5rem] bottom-[-61px] left-[1rem] z-50'>
-        <p className='text-white text-[16px] font-manrope'>Founder & <br/> Chairman, <br /> Trescon Holdings</p>
-        
         {/* Mohammed Saleem name for mobile and md screens */}
-        <h3 className="text-white font-[500] text-[40px] lg:hidden font-anek leading-tight mt-3">
+        <div className='lg:hidden mb-1'>
+          <p className='text-white text-[16px] font-manrope mt-3'>Founder & <br/> Chairman, <br /> Trescon Holdings</p>
+        </div>
+        <h3 className="text-white font-[500] text-[40px] lg:hidden font-anek leading-tight">
           Mohammed<br/>Saleem
         </h3>
+
+
+       
       </div>
     </div>
   );

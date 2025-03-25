@@ -9,7 +9,7 @@ export function NewsHeader() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="mb-12 mt-12"
+      className="mb-12 "
     >
       <h2 
         className="font-manrope text-[24px] font-[700] leading-[32.78px] text-left text-[#00A5A3] pb-4 border-b border-[#00A5A3]"

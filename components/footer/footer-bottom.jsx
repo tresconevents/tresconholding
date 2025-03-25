@@ -17,7 +17,7 @@ export function FooterBottom() {
             whileHover={{ scale: 1.1 }}
             className="hover:text-white transition-colors"
           >
-            © 2024 TRESCON
+            © 2025 TRESCON
           </motion.p>
           <motion.a
             href="#"
