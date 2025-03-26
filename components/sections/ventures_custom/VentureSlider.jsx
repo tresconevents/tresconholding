@@ -132,7 +132,7 @@ const VentureSlider = () => {
                   {venture.video && (
                     <div className="absolute bottom-[10px] right-4 z-20">
                       <Image
-                        src="/trescon_blue.png"
+                        src="/trescon_event.png"
                         alt="Trescon Logo"
                         width={120}
                         height={40}
