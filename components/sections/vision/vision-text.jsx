@@ -15,7 +15,7 @@ export function VisionText() {
           >
             <div className="flex items-center gap-2 md:gap-4">
               <span className="text-[#fff] text-[20px] md:text-[47px] font-[400] leading-[1.2] md:leading-[1.2]">
-                We Bring together
+                We bring together
               </span>
               <div className="flex items-center text-[#fff] gap-2 md:gap-4">
                 <VisionImage
@@ -37,7 +37,7 @@ export function VisionText() {
                 <VisionWord className="text-[#fff]">innovators,</VisionWord>
               
               </div>
-              <span className='text-[18px] md:text-[47px] font-anek-devanagari text-[#fff] md:text-[47px] font-[400] leading-[1.6px]'>&</span>
+              <span className='text-[18px] md:text-[47px] font-anek text-[#fff] md:text-[47px] font-[400] leading-[1.6px]'>&</span>
               <div className="flex items-center gap-2  md:gap-4">
                 <VisionImage
                   src="/vision_image2.png"
